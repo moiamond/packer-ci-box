@@ -38,20 +38,6 @@
       "remote_path": "/tmp/script.bat",
       "execute_command": "{{.Vars}} cmd /c C:/Windows/Temp/script.bat",
       "scripts": [
-        "./scripts/vm-guest-tools.bat",
-        "./scripts/microsoft-updates.bat",
-        "./scripts/run-win-updates.bat"
-      ]
-    },
-    {
-      "type": "windows-restart"
-    },
-    {
-      "type": "shell",
-      "remote_path": "/tmp/script.bat",
-      "execute_command": "{{.Vars}} cmd /c C:/Windows/Temp/script.bat",
-      "scripts": [
-        "./scripts/disable-auto-logon.bat",
         "./scripts/enable-rdp.bat",
         "./scripts/install_chocolatey.bat",
         "./scripts/compact.bat"
