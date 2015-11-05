@@ -69,6 +69,6 @@
     }
   ],
   "variables": {
-    "source_path": "file://\\192.168.1.88\\Share\\VagrantHub\\ci_Win7_x64_base\\ci_win7_x64_base.ova"
+    "source_path": "ci_win7_x64_base.ova"
   }
 }
